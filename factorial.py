@@ -1,8 +1,7 @@
-num = int(input("Enter a number: "))
+num = 5
+
 fact = 1
-if num < 0:
-    print("Factorial does not exist for negative numbers")
-else:
-    for i in range(1, num + 1):
-        fact = fact * i
-    print("Factorial of", num, "is", fact)
+for i in range(1, num + 1):
+    fact *= i
+
+print("Factorial of", num, "is", fact)
